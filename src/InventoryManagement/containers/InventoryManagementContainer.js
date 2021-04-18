@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import NewInventoryItem from '../components/NewInventoryItem.js';
+import InventoryManagementSystem from '../components/InventoryManagementSystem.js';
 
 class InventoryManagementContainer extends Component{
 
@@ -18,6 +19,7 @@ class InventoryManagementContainer extends Component{
             <div>
                 <p> "Hello InventoryManagementContainer!" </p>
                 <NewInventoryItem/>
+                <InventoryManagementSystem/>
             </div>
         )
     }
